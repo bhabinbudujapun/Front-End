@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    /* text-decoration: none; */
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+}
+    
+
+body {
+    background-image: url(../img/milky-way-2695569_1280.jpg);
+}
+
+nav {
+    background: skyblue;
+    height: 50px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+ul {
+    margin-top: -25px;
+    float: right;
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+}
+
+ul > li > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul > li > a:hover {
+    color: #fff;
+    background: #1f1f1f;
+}
