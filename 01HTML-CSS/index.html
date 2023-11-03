@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+        * {
+            background-color: #3d3d3d;
+            color: #f1f1f1;
+        }
+        
+        /* individual selector */
+        p {
+            background-color: #a59b16;
+        }
+
+        /* chained or 'and' selector */
+        li.bg-black.text-white {
+            background-color: #000000;
+            color: white;
+        }
+
+        /* class and id selector */
+        #warning {
+            background-color: #f86a18;
+            padding: 5px 0;
+            border: 2px solid white;
+        }
+
+        /* combine selector */
+        span,
+        li {
+            background-color: burlywood;
+        }
+
+        /* inside an element */
+        div ul li {
+            background-color: #0f7ac2;
+        }
+
+        /* direct chlid */
+        div li {
+            background-color: #5e1c9b;
+        }
+
+        /* sibling or ~ or + */
+        /* the tilde(~) selector selects all sibling elements that come after the specified element */
+        /* the plus(+) selector select only one immediate next sibling element*/
+        .sibling + p {
+            background-color: #e127e7;
+        }
+
+        p::before {
+            content: "\"";
+        }
+
+        p::after {
+        content: "\"";
+        }
+
+    </style>
+</head>
+<body>
+    <div>Welcome to live class</div>
+    <span>Span is just a span, nothing more</span>
+    <p>we all know pragraph</p>
+    <ul>
+        <li class="bg-black text-white">item1</li>
+        <li id="warning">item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+
+    <div>
+        <li>awesome</li>
+        <ul>
+            <li>highlight me</li>
+            <li>highlight me</li>
+        </ul>
+        <li>Test</li>
+    </div>
+
+    <p>Text 1</p>
+    <p class="sibling">Text 2</p>
+    <p>Text 3</p>
+    <p>Text 4</p>
+    <p>Text 5</p>
+    <p>Text 6</p>
+
+</body>
+</html>
