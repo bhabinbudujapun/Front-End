@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO</title>
+    <style>
+        body {
+            background-color: #818181;
+            color: #FFFFFF;
+        }
+
+        .imp-label::before {
+            content: "";
+            display: block;
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            background-color: red;
+        }
+
+        .imp-label::after {
+            content: " ";
+            display: block;
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="name" class="imp-label">name</label>
+            <input type="text" name="name">
+
+            <label for="email">email</label>
+            <input type="email" name="email">
+
+            <button>submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- 
+---NOTES---
+o 
+ -->

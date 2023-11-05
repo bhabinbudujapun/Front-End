@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more-pseudo</title>
+    <style>
+        /* hover */
+        li:hover{
+            background-color: orange;
+            border: 2px solid #000;
+            padding: 2px;
+        }
+
+        /* focus */
+        input:focus {
+            background-color: skyblue;
+            /* color: #fff; */
+        }
+
+        ::placeholder{
+            color: blue;
+        }
+
+        /* first child, last child */
+        li:nth-child(2n-1) {
+            background-color: aquamarine;
+        }        
+
+        /* custom attributes */
+        [lco-code]{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis veritatis laborum odit, dolore esse molestias placeat nemo. Amet, optio inventore?</p>
+
+        <div>Welcome to live class</div>
+        <span>Span is just a span, nothing more</span>
+        <p>We all know paragraph</p>
+    </div>
+    <div>
+        <input type="email" name="email" placeholder="email" id="">
+        <ul>
+            <li class="bg-black text-white">item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+        <div>
+            <li>awesome</li>
+            <ul>
+                <li>highlight me</li>
+                <li>highlight me</li>
+            </ul>
+        </div>
+        
+        <section>
+            <p>Test 1</p>
+            <p>Test 2</p>
+            <p>Test 3</p>
+            <p>Test 4</p>
+            <p lco-code>Test 5</p>
+        </section>
+
+    </div>
+</body>
+</html>
+
+<!-- 
+---NOTES---
+o 
+ -->
