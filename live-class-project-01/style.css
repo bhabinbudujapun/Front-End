@@ -1,0 +1,28 @@
+/* <!-- Font Orbiton --> */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
+/* <!-- FONT Poppins --> */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px 45px;
+  font-family: "Orbitron";
+}
+
+.list {
+    background-color: aliceblue;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.list-item { 
+    display: inline-block;
+    margin-left: 30px;
+    /* white-space: 20px; */
+    /* position: relative; */
+    /* top: -55px; */
+    /* left: 200px; */
+}
