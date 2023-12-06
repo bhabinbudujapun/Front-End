@@ -1,0 +1,26 @@
+div {
+    height: 80px;
+    background-color: skyblue;
+}
+
+.black {
+    color: white;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+.pink {
+    height: 80px;
+    background-color: pink;
+}
+
+.green {
+    height: 80px;
+    background-color: green;
+}
+
+#red {
+    height: 80px;
+    background-color: red;
+}
