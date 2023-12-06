@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: lightblue;
+  font-family: Roboto;
+}
+
+.wrapper {
+  width: 350px;
+  height: 280px;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 5px solid #b6b3b3;
+  border-radius: 8px;
+  color: #191818;
+}
+
+ol li label {
+  cursor: pointer;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol li {
+  padding: 10px;
+}
+
+.gray {
+  background-color: #e2dddd;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 10px;
+  background: linear-gradient(#3b3a3a, white);
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  border-bottom: #191818 dotted 2px;
+}
+
+span {
+    color: yellow;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+input {
+    position: relative;
+    float: right;
+}
