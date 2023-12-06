@@ -1,0 +1,39 @@
+body {
+    background-color: #63c0d0;
+}
+
+div {
+    margin: 0px auto;
+    width: fit-content;
+}
+
+h1 {
+    padding: 6px 40px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    color: #655c5c;
+}
+
+a {
+    border: 2px solid #655c5c;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: blue;
+}
+
+/* order: link, visited, hover, active */
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
