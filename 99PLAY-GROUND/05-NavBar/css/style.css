@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+body {
+    margin: 0;
+    font-family: Orbitron;
+    /* font-family: Roboto; */
+}
+
+ul {
+  list-style-type: none;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;    
+}
+
+li a:hover {
+  background-color: darkred;
+}
+
+.active {
+  background-color: #e65520;
+}
+
+.right {
+  float: right;
+}
