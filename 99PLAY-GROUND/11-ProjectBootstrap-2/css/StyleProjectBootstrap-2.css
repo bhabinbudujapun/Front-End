@@ -1,0 +1,26 @@
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #2b3035;
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.carousel-item {
+  height: 500px;
+  background-color: #777;
+}
+
+.carousel-caption {
+  opacity: 0.5;
+  background-color: #2b3035;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 600;
+}
