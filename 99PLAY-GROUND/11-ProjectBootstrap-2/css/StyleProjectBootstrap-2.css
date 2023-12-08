@@ -1,3 +1,4 @@
+/* NAVIGATION */
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -7,6 +8,7 @@
   background-color: #2b3035;
 }
 
+/* CARSOUEL/SLIDER-IMG */
 .carousel {
   height: 500px;
   margin-bottom: 50px;
@@ -24,3 +26,22 @@
   font-size: x-large;
   font-weight: 600;
 }
+
+/* TEAM MEMBER SECTION */
+.team {
+  margin-bottom: 50px;
+}
+
+.team .row {
+  text-align: center;
+}
+
+.team .row h3 {
+  color: #323232cc;
+}
+
+.team .row p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
