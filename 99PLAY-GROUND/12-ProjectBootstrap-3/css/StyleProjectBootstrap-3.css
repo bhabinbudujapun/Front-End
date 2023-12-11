@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;400;500;700&display=swap");
+/* NAVIGATION */
+
+.container > h1 {
+  font-family: Kalnia;
+  background-color: #f16464;
+  color: #ffffff;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #dfdcdc;
+}
+
+#navbarNav ul li a {
+  /* font-family: Roboto; */
+  font-size: medium;
+  text-align: center;
+}
+
+/* MAIN-CONTENT */
+.container h2,
+p {
+  text-align: center;
+}
+
+/* SEMI-CONTENT */
+.container .row .a {
+  background-color: #dfdcdc;
+  border-radius: 5px;
+}
+
+.container .row .b {
+  border-radius: 5px;
+  background-color: #e3d2d2;
+}
+
+.container .row .c {
+  background-color: #dfdcdc;
+  border-radius: 5px;
+}
+
+.container .row .col-lg-4 h1 {
+  text-align: center;
+}
