@@ -4,20 +4,203 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="https://kit.fontawesome.com/a03c2a7c2e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a03c2a7c2e.js"
+      crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
     <title>Nav-Bar</title>
   </head>
   <body>
-    
-    <!-- <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, voluptas?</h1> -->
-    
-    <ul>
+    <!-- <ul>
       <li class="active"><a href="#HOME">Home</a></li>
       <li><a href="#CONTACT">Contact Us</a></li>
       <li><a href="#SERVICES">Services</a></li>
       <li class="right"><a href="#LOGIN"><i class="fa-regular fa-user"></i></a></li>
       <li class="right"><a href="#ABOUT">About Us</a></li>
-    </ul> 
+    </ul>  -->
 
+    <!-- Navigation -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark"
+      data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa-solid fa-caret-down"></i>
+          <!-- <i class="fa-solid fa-square-caret-down"></i> -->
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Cources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">PHP</a></li>
+                <li><a class="dropdown-item" href="#">NodeJs</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Django</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Content -->
+
+    <!-- About -->
+    <div class="container mt-3">
+      <h4>About</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas
+        optio voluptate dignissimos nulla voluptatibus cumque quibusdam,
+        voluptatum velit consequuntur esse qui quo dolor error officiis expedita
+        assumenda, quasi nisi adipisci! At autem laborum nesciunt odit similique
+        obcaecati adipisci asperiores veritatis ipsa, odio quos tempore in sed a
+        perspiciatis voluptates? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nam eum expedita eaque est architecto aspernatur iure,
+        explicabo repellat vel minima. Ipsum nobis officia eveniet. Est totam
+        excepturi voluptas veniam qui consequatur consectetur, asperiores
+        dignissimos quas eius neque debitis laboriosam blanditiis nihil tempora
+        culpa. Aperiam, numquam recusandae dignissimos odit accusamus
+        consequuntur.
+      </p>
+    </div>
+    <!-- End About -->
+
+    <!-- Form -->
+    <!-- Form -->
+    <div class="container mt-3">
+      <div class="row">
+        <!-- Form Content Column -->
+        <div class="col-md-6">
+          <h4>Form Content</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum
+            vel deserunt recusandae, in qui quidem quo harum! Nihil est corrupti
+            quaerat, quo vero exercitationem! Culpa corrupti commodi eveniet
+            repellendus cumque atque, magni aut quia, ut excepturi enim officia
+            cum fuga consequatur molestiae nam ipsam? Perspiciatis excepturi
+            assumenda, magni ducimus delectus unde pariatur natus. Ab molestias
+            non maxime quia voluptate!
+          </p>
+        </div>
+        <!-- End Form Content Column -->
+
+        <!-- Form Column -->
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <!-- End Form Column -->
+      </div>
+    </div>
+    <!-- End Form -->
+
+    <!-- End Form -->
+
+    <!-- Services -->
+    <div class="container mt-3">
+      <h4>Services</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas
+        optio voluptate dignissimos nulla voluptatibus cumque quibusdam,
+        voluptatum velit consequuntur esse qui quo dolor error officiis expedita
+        assumenda, quasi nisi adipisci! At autem laborum nesciunt odit similique
+        obcaecati adipisci asperiores veritatis ipsa, odio quos tempore in sed a
+        perspiciatis voluptates? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nam eum expedita eaque est architecto aspernatur iure,
+        explicabo repellat vel minima. Ipsum nobis officia eveniet. Est totam
+        excepturi voluptas veniam qui consequatur consectetur, asperiores
+        dignissimos quas eius neque debitis laboriosam blanditiis nihil tempora
+        culpa. Aperiam, numquam recusandae dignissimos odit accusamus
+        consequuntur.
+      </p>
+    </div>
+    <!-- End Searvices -->
+
+    <!-- Features -->
+    <div class="container mt-3">
+      <h4>Features</h4>
+      <p class="">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas
+        optio voluptate dignissimos nulla voluptatibus cumque quibusdam,
+        voluptatum velit consequuntur esse qui quo dolor error officiis expedita
+        assumenda, quasi nisi adipisci! At autem laborum nesciunt odit similique
+        obcaecati adipisci asperiores veritatis ipsa, odio quos tempore in sed a
+        perspiciatis voluptates? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nam eum expedita eaque est architecto aspernatur iure,
+        explicabo repellat vel minima. Ipsum nobis officia eveniet. Est totam
+        excepturi voluptas veniam qui consequatur consectetur, asperiores
+        dignissimos quas eius neque debitis laboriosam blanditiis nihil tempora
+        culpa. Aperiam, numquam recusandae dignissimos odit accusamus
+        consequuntur.
+      </p>
+    </div>
+    <!-- End Features -->
+
+    <!-- End Content -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+"></script>
   </body>
 </html>
