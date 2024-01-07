@@ -14,51 +14,158 @@
   </head>
   <body>
     <!-- Start-Navigation -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
-      <div class="container">
-        <a href="#" class="navbar-brand">
-          <img src="./app/logo.png" class="img-fluid" alt="logo" srcset="" />
-        </a>
-        <button
-          class="navbar-toggler mr-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mx-auto" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Pages
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-md bg-body-tertiary text-primary">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="./app/logo.png" class="img-fluid" alt="logo" srcset="" />
+          </a>
+          <button
+            class="navbar-toggler mr-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Center-Navigation -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-primary"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu bg-body-tertiary">
+                  <li>
+                    <a href="#" class="dropdown-item text-primary">Services</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-primary" href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-primary" href="#">Referels</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Right-Navigation -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link pe-3 text-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#loginModal"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="btn btn-outline-primary"
+                  role="button"
+                  data-bs-toggle="button"
+                  >Get Started</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- End-Center-Navigation -->
+        </div>
+      </nav>
+    </header>
+    <!-- Modal-Logic -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-body-tertiary">
+            <h1 class="modal-title text-primary fs-5" id="exampleModalLabel">
+              Super-FM
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body modal-body-centered">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="example@gmail.com"
+                  aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="* * * * * * * * *" />
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
     <!-- End-Navigation -->
+
+    <!-- Start-Page -->
+    <div class="page">
+      <section class="hero section-1">
+        <div class="container mt-4">
+          <div class="row align-item-center">
+            <div class="col-lg-6">
+              <h1 class="hero-heading display-3">
+                Lorem ipsum dolor sit amet consectetur.
+              </h1>
+              <p class="lead font-weight-light">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+                nulla nobis perferendis molestiae molestias, dolores accusantium
+                error maxime.
+              </p>
+            </div>
+            <div class="col-lg-6"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End-Page -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

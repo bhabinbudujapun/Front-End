@@ -1,3 +1,27 @@
-/* body {
-  background: linear-gradient(90deg, orange 50%, cyan);
-} */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
+
+.navbar {
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
+.section-1 {
+  position: relative;
+}
+
+.section-1::after {
+  content: "";
+  display: block;
+  height: 45rem;
+  width: 45rem;
+  background: url(../svgs/one.svg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: -5rem;
+  right: -4rem;
+  z-index: -1;
+}
