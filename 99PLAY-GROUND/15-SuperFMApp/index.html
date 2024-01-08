@@ -9,6 +9,7 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/device.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Super-FM</title>
   </head>
@@ -147,10 +148,11 @@
 
     <!-- Start-Page -->
     <div class="page">
-      <section class="hero section-1">
-        <div class="container mt-4">
+      <div class="container mt-4">
+        <section class="hero section-1">
           <div class="row align-item-center">
-            <div class="col-lg-6">
+            <!-- Section-Left -->
+            <div class="col-lg-5">
               <h1 class="hero-heading display-3">
                 Lorem ipsum dolor sit amet consectetur.
               </h1>
@@ -159,13 +161,72 @@
                 nulla nobis perferendis molestiae molestias, dolores accusantium
                 error maxime.
               </p>
+
+              <!-- Subscription-Form -->
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                  aria-label="Email address"
+                  aria-describedby="basic-addon2" />
+                <button class="btn btn-primary">SUBSCRIPTION</button>
+              </div>
+              <!-- End-Subscription-Form -->
+
+              <!-- App-Available-At -->
+              <div class="platform">
+                <span class="platform-title">App Available At</span>
+                <ul class="platform-list list-inline">
+                  <li class="list-inline-item">
+                    <img
+                      src="./svgs/apple.svg"
+                      alt="iphone"
+                      class="platform-img img-fluid" />
+                  </li>
+                  <li class="list-inline-item">
+                    <img
+                      src="./svgs/android.svg"
+                      alt="iphone"
+                      class="platform-img img-fluid" />
+                  </li>
+                  <li class="list-inline-item">
+                    <img
+                      src="./svgs/windows.svg"
+                      alt="iphone"
+                      class="platform-img img-fluid" />
+                  </li>
+                </ul>
+              </div>
+              <!-- End-App-Available-At -->
             </div>
-            <div class="col-lg-6"></div>
+            <!-- End-Section-Left -->
+
+            <!-- iphone-Section -->
+            <div class="col-lg-7">
+              <div class="device-wrapper mx-auto">
+                <div
+                  class="device"
+                  data-device="iPhone6"
+                  data-orientation="portrait"
+                  data-color="black">
+                  <div class="screen">
+                    <img
+                      src="./app/app.png"
+                      alt="app-screenshot"
+                      class="img-fluid"
+                      srcset="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End-iphone-Section -->
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
     <!-- End-Page -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
