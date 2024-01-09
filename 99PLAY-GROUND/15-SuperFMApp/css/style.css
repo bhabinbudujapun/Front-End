@@ -34,23 +34,39 @@ h1 {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.12rem;
-  opacity: 0.6;
+  color: #b1b1b1;
 }
 
 .platform-list {
- margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .platform-img {
   height: 2.5rem;
-  opacity: 0.6;
+  opacity: 0.3;
   margin-right: 1rem;
+  transition: all 0.3s;
 }
 
 .platform-img:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
+.gradient-icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #540cfa;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+/* .gradient-icon .icon-style {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+} */
 
 @media (min-width: 426px) and (max-width: 768px) {
 }
