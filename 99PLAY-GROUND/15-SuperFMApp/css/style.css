@@ -54,9 +54,9 @@ h1 {
 }
 
 .gradient-icon {
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #540cfa;
+  height: 4rem;
+  width: auto;
+  /* background-color: #5e1ef4; */
   color: #ffffff;
   border-radius: 0.8rem;
   margin-bottom: 1rem;
