@@ -1,0 +1,39 @@
+h1 {
+  font-size: 14px;
+  color: #232323;
+}
+
+.profile-card-1 {
+  text-align: center;
+  /* border: none; */
+  /* color: #fff; */
+  /* position: relative; */
+  height: 368px;
+  width: 100%;
+  overflow: hidden;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.profile-card-1 .background-img {
+  width: 100%;
+  vertical-align: top;
+  filter: blur(2px);
+}
+
+.profile-card-1 .profile-img {
+  border-radius: 50%;
+  max-width: 100px;
+  position: absolute;
+  border: 2px solid #fff;
+  /* position: absolute;
+  max-width: 100px;
+  top: 0px;
+  left: 50%;
+  padding-top: 10px; */
+}
+
+.profile-card-1 .card-content .social-icons{
+  padding-right: 10px;
+}
