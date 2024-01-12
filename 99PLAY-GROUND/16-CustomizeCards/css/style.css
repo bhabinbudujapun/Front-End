@@ -4,36 +4,68 @@ h1 {
 }
 
 .profile-card-1 {
-  text-align: center;
-  /* border: none; */
-  /* color: #fff; */
-  /* position: relative; */
+  border: none;
+  position: relative;
+  float: left;
   height: 368px;
   width: 100%;
   overflow: hidden;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  text-align: center;
+  color: #ffffff;
 }
 
 .profile-card-1 .background-img {
   width: 100%;
   vertical-align: top;
+  opacity: 0.8;
   filter: blur(2px);
+  transform: scale(4);
 }
 
 .profile-card-1 .profile-img {
   border-radius: 50%;
+  border: 2px solid #ffffff;
   max-width: 100px;
   position: absolute;
-  border: 2px solid #fff;
-  /* position: absolute;
-  max-width: 100px;
-  top: 0px;
+  top: 50%;
   left: 50%;
-  padding-top: 10px; */
+  transform: translate(-50%, -100%);
+  opacity: 1;
 }
 
-.profile-card-1 .card-content .social-icons{
-  padding-right: 10px;
+.profile-card-1 .card-content {
+  width: 100%;
+  position: absolute;
+  /* left: 0; */
+  top: 50%;
+}
+
+.profile-card-1 .card-content h2 {
+  font-size: 25px;
+  margin: 0 0 4px;
+  font-weight: 600px;
+}
+
+.profile-card-1 .card-content small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.profile-card-1 .card-content .social-icons {
+  margin-top: 8px;
+}
+
+.profile-card-1 .card-content .social-icons i {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  padding: 10px 12px;
+  margin-right: 8px;
+}
+
+.profile-card-1 .card-content .social-icons i:hover {
+  background-color: #ffffff;
+  color: #777e8b;
+  cursor: pointer;
+  text-decoration: none;
 }
