@@ -1,0 +1,29 @@
+/* 
+background-color: #000000
+outerline: #ecec02
+color: #fafafa
+*/
+
+body {
+    background-color: #000000;
+}
+
+.div_btn {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 4px 24px #ecec02;
+    border-radius: 10px;
+    border: 3px solid #ecec02;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: x-large;
+    padding: 11px 21px;
+    background-color: #000000;
+    color: #fafafa;
+}

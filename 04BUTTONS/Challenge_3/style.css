@@ -1,0 +1,35 @@
+/* 
+background-color: #cfdfdf
+button-bg-color: #12376e
+color: #eaedf2
+button-shadow: #97a1a2
+*/
+
+body {
+    background-color: #cfdfdf;
+}
+
+.btn_wrapper {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(#154790, #1c3964);
+    /* background-color: #12376e; */
+    padding: 18px 44px;
+    font-size: 18px;
+    box-shadow: 0px 15px 10px #97a1a2;
+    border-radius: 34px;
+    border: none;
+}
+
+.btn-text-one {
+    color: #eaedf2;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
