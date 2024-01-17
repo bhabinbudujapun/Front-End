@@ -1,0 +1,19 @@
+/* 
+background-color: #ffffff;
+nav-bar-color: #666666;
+nav-bar-active-color: #ffc9af;
+font-color: #f7f7f7;
+sub-heading-bg-color: #f7f7f7;
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+ul {
+    
+}
