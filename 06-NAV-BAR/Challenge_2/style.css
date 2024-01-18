@@ -5,7 +5,11 @@ nav-bar-active-color: #ffc9af;
 font-color: #f7f7f7;
 sub-heading-bg-color: #f7f7f7;
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
+  font-family: Roboto;
   margin: 0;
   padding: 0;
 }
@@ -14,6 +18,57 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  margin: 10px 8px 0 8px;
+}
+
 ul {
-    
+  width: 800px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.container > ul > li {
+  position: relative;
+  background-color: #666666;
+  float: left;
+  list-style: none;
+  padding: 10px 50px;
+  color: #f7f7f7;
+  cursor: pointer;
+}
+
+.container > ul > li:hover {
+  background-color: #ffc9af;
+  color: #666666;
+}
+
+.sub-menu > li {
+  list-style: none;
+  display: block;
+}
+
+.sub-menu > li > a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  background-color: #666666;
+  color: #f7f7f7;
+}
+
+.sub-menu > li > a:hover {
+  background-color: #ffc9af;
+  color: #666666;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.container > ul > li:hover .sub-menu {
+  display: block;
 }
