@@ -1,0 +1,61 @@
+/* 
+font-color: #f8ecdd
+button-bgc: #609ea0
+black-font-color: #0f1818
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  font-family: "poppins", "verdana";
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./images/bg-img.jpg) no-repeat fixed center;
+  color: #f8ecdd;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  align-items: center;
+}
+
+.yo {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+input {
+  padding: 4px;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid white;
+}
+
+option {
+  color: #0f1818;
+}
+
+button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #609ea0;
+  border: none;
+}
+
+button > b {
+  color: #0f1818;
+}
