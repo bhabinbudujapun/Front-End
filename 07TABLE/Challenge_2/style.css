@@ -1,1 +1,45 @@
+/* 
+black-font-color: #898989
+red-font-color: #f22a21
+background-color: #7fffd4
+inside-border-color: #7fffd4
+table-data-english-font-color: #8fb1cc
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+body {
+  font-family: Indie Flower;
+  font-weight: 600;
+}
+
+hr {
+  border: 2px solid #898989;
+}
+
+tr {
+  background-color: #7fffd4;
+}
+
+th {
+  color: #f22a21;
+}
+
+td {
+  color: #070707;
+}
+
+tr:nth-child(3) > td:last-child {
+    background-color: #8fb1cc;
+}
+
+#myTable { 
+    position: relative;
+}
+
+caption {
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
