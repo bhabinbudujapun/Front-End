@@ -7,32 +7,44 @@
     <title>SingIn: iNeuron</title>
   </head>
   <body>
-    <h1 class="company"><a href="#">iNeuron</a></h1>
-    <form>
-      <span>Sign in to your account</span>
-      <div class="email">
-        <label for="email">Email</label>
-        <input type="email" id="email" />
+    <div class="main-container">
+      <h1 class="company-name"><a href="#">iNeuron</a></h1>
+      <form>
+        <div class="inside-form">
+          <span>Sign in to your account</span>
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="password">
+            <div class="inside-password">
+              <label for="password">Password</label>
+              <span class="reset-pass"
+                ><a href="#">Forget your password?</a></span
+              >
+            </div>
+            <input type="password" id="password" />
+          </div>
+          <div class="stay-login">
+            <input type="checkbox" name="stay-login" id="stay-login" />
+            <label for="stay-login">Stay signined in for a week</label>
+          </div>
+          <div class="submit">
+            <button type="submit">Continue</button>
+          </div>
+          <span><a href="#">Use single sign-on (Google) instead</a></span>
+        </div>
+      </form>
+      <div class="form-last-part">
+        <div class="forget-account">
+          <span>Don't have an account?</span><a href="#">Sign-up</a>
+        </div>
+        <div class="form-footer">
+          <span><a href="#">@ iNeuron</a></span
+          ><span><a href="#">Contact</a></span
+          ><span><a href="#">Privacy & terms</a></span>
+        </div>
       </div>
-      <div class="password">
-        <label for="password">Password</label>
-        <span class="reset-pass"><a href="#">Forget your password?</a></span>
-        <input type="password" id="password" />
-      </div>
-      <input type="checkbox" name="stay-login" id="stay-login" />
-      <label for="stay-login">Stay signined in for a week</label>
-      <div class="submit">
-        <button type="submit">Continue</button>
-      </div>
-      <span><a href="#">Use single sign-on (Google) instead</a></span>
-    </form>
-    <div class="forget-account">
-      <span>Don't have an account?</span><a href="#">Sign-up</a>
-    </div>
-    <div class="form-footer">
-      <span><a href="#">@ iNeuron</a></span
-      ><span><a href="#">Contact</a></span
-      ><span><a href="#">Privacy & terms</a></span>
     </div>
   </body>
 </html>

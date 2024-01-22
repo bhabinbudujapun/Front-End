@@ -1,4 +1,149 @@
+/* 
+company-font-color: #5469d4;
+signin-color: #1d2239;
+email-pass-color-2: #20253c;
+email-pass-border-color: #7686dd;
+forget-color: #7686dd;
+google-signin-color: #576cd5;
+form-footer-color: #6b7587;
+*/
+
 body {
+  height: 100vh;
   background: url("./images/background-img.png") center center / cover no-repeat
-    fixed #cccccc;
+    fixed #fafcfd;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 445px;
+}
+
+form {
+  position: relative;
+  background-color: #fafcfd;
+  border: 1px solid #6b7587;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+  opacity: 0.95;
+}
+
+h1 > a {
+  color: #5469d4;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.inside-form {
+  padding: 60px 40px 50px 40px;
+}
+
+.inside-form > span:first-child {
+  display: inline-block;
+  padding-bottom: 16px;
+  color: #1d2239;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.email > label {
+  display: block;
+  padding-bottom: 10px;
+  color: #20253c;
+}
+
+.password > .inside-password {
+  margin-bottom: 10px;
+}
+
+.password > .inside-password> label {
+  display: inline-block;
+}
+
+.password > .inside-password> .reset-pass {
+  display: inline-block;
+  padding-left: 100px;
+}
+
+.password > .inside-password> .reset-pass > a {
+  font-weight: 500;
+  color: #5469d4;
+  text-decoration: none;
+}
+
+.email > input,
+.password > input {
+  display: block;
+  width: 100%;
+  border: 1px solid #6b7587;
+  border-radius: 4px;
+  opacity: 0.5;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.stay-login {
+  margin-bottom: 10px;
+}
+
+.submit {
+  margin-bottom: 15px;
+}
+
+.submit > button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #5469d4;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  margin: 25px 0;
+}
+
+.inside-form > span:last-child {
+  display: block;
+  text-align: center;
+}
+
+.inside-form > span:last-child > a {
+  color: #5469d4;
+  text-decoration: none;
+}
+
+.form-last-part {
+  text-align: center;
+  margin: 35px;
+}
+
+.form-last-part > .forget-account {
+  margin-bottom: 35px;
+}
+
+.form-last-part > .forget-account > a {
+  letter-spacing: 0.8px;
+  color: #5469d4;
+  text-decoration: none;
+}
+
+.form-last-part > .form-footer > span {
+  padding: 0 18px;
+}
+.form-last-part > .form-footer > span > a {
+  color: #6b7587;
+  text-decoration: none;
 }
