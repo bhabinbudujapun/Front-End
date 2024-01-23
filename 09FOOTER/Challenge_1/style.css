@@ -1,3 +1,59 @@
+/* 
+font-color: #636363;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 body {
-    background-color: skyblue;
+  background-color: #fff;
+  /* font-family: Rubik, sans-serif; */
+}
+
+.footer {
+  padding: 200px 100px 0 100px;
+}
+
+.heading {
+  margin: 15px 0;
+  padding-left: 15px;
+}
+
+h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+h4 {
+  margin: 21px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+p,
+a {
+  color: #636363;
+  text-decoration: none;
+}
+
+hr {
+  padding: 0.5px 0;
+  background-color: #636363;
+  opacity: 0.3;
+}
+
+.content {
+  display: flex;
+}
+
+.services,
+.social-media,
+.links,
+.details {
+  flex: 1 1 0%;
+}
+
+footer {
+  margin: 30px 0;
+  text-align: center;
 }
