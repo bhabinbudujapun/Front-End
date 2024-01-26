@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
+
+/* Global Setting/Style */
+body {
+  font-family: Orbitron;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav-Bar Section */
+
+section > nav {
+  /* border: 1px dotted red; */
+  position: relative;
+  margin: 65px 75px;
+}
+
+nav > div > img {
+  /* border: 1px dotted red; */
+  width: 150px;
+  height: 45px;
+}
+
+ul {
+  /* border: 1px dotted red; */
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.11rem;
+  color: #000;
+}
+
+ul > li:first-child > a {
+  border-bottom: 2px solid #000;
+  font-weight: 800;
+}
+
+nav > .button-group {
+  /* border: 1px dotted green; */
+  position: absolute;
+  float: right;
+  top: 12%;
+  right: 10%;
+}
+
+.button-group > .search-icon {
+  /* background-color: yellow; */
+  color: #8f8f8f;
+  position: absolute;
+  left: 50%;
+}
+
+.button-group .nav-button {
+  /* background-color: green; */
+  border-radius: 8px;
+  font-size: 1.2rem;
+  padding: 4px 40px;
+  position: relative;
+  left: 80%;
+  cursor: pointer;
+  color: #8f8f8f;
+  border: 2px solid #707070;
+}
