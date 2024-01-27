@@ -4,7 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
 
+/* ------------------------- */
 /* Global Setting/Style */
+/* ------------------------- */
+
 body {
   font-family: Orbitron;
 }
@@ -14,24 +17,25 @@ ul {
   margin: 0;
 }
 
+/* ----------------------------- */
 /* End of Global Setting/Style */
+/* ----------------------------- */
 
+/* ------------------------- */
 /* Nav-Bar Section */
+/* ------------------------- */
 
 section > nav {
-  /* border: 1px dotted red; */
   position: relative;
-  margin: 65px 75px;
+  margin: 55px 75px;
 }
 
 nav > div > img {
-  /* border: 1px dotted red; */
   width: 150px;
   height: 45px;
 }
 
 ul {
-  /* border: 1px dotted red; */
   float: right;
   position: absolute;
   top: 20%;
@@ -58,7 +62,6 @@ ul > li:first-child > a {
 }
 
 nav > .button-group {
-  /* border: 1px dotted green; */
   position: absolute;
   float: right;
   top: 9%;
@@ -66,14 +69,12 @@ nav > .button-group {
 }
 
 .button-group > .search-icon {
-  /* background-color: yellow; */
   color: #8f8f8f;
   position: absolute;
   left: 50%;
 }
 
 .button-group .nav-button {
-  /* background-color: green; */
   border-radius: 8px;
   font-size: 1.2rem;
   padding: 4px 40px;
@@ -84,9 +85,138 @@ nav > .button-group {
   border: 2px solid #707070;
 }
 
+/* ------------------------- */
 /* End of Nav-Bar Section */
+/* ------------------------- */
 
+/* ------------------------- */
 /* Start of Hero-Section */
+/* ------------------------- */
+
 section > .hero-container {
-  margin: 65px 75px;
+  position: relative;
+  margin: 80px 75px 70px 75px;
 }
+
+/* Square */
+section > .hero-container > span:first-child {
+  position: absolute;
+  top: 44%;
+  left: 10%;
+  z-index: -1;
+}
+
+/* Star */
+section > .hero-container > span:nth-child(2) {
+  position: absolute;
+  right: 2%;
+}
+
+.star-i > img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+
+/* Star-resizing */
+section > .hero-container > span:nth-child(2) > img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Globe */
+section > .hero-container > span:nth-child(3) {
+  position: absolute;
+  top: -10%;
+  left: 55%;
+}
+
+/* Globe-resizing */
+section > .hero-container > span:nth-child(3) > img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Men img-resizing */
+span img[alt="square-pattern"] {
+  width: 300px;
+  height: 300px;
+}
+
+/* Men img-resizing */
+div img[alt="person-hero-image"] {
+  width: 350px;
+  height: 450px;
+}
+
+/* ------------------------- */
+/* End of Hero-Section */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Start of Right-Hero-Section */
+/* ------------------------- */
+
+.hero-container-right {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  text-align: center;
+}
+
+.hero-container-right > div {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.hero-container-right > div:last-child {
+  margin-top: 80px;
+}
+
+.hero-heading {
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+}
+
+.hero-description {
+  font-size: 0.9rem;
+  line-height: 1.6em;
+  margin: 50px 0 60px 0;
+}
+
+.button-email {
+  margin-right: 6px;
+  padding: 3px 20px;
+  border: 2px solid #707070;
+  border-radius: 4px;
+  font-family: Orbitron;
+  background-color: #fff;
+}
+
+.button-join {
+  padding: 3px 2px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-family: Orbitron;
+}
+
+.contact-heading {
+  font-family: "Fragment Mono";
+  color: #8f8f8f;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.icons > span > img {
+  margin: 0 6px;
+  width: 35px;
+  height: 35px;
+}
+
+/* ------------------------- */
+/* End of Right-Hero-Section */
+/* ------------------------- */
