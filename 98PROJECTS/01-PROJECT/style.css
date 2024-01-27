@@ -14,6 +14,8 @@ ul {
   margin: 0;
 }
 
+/* End of Global Setting/Style */
+
 /* Nav-Bar Section */
 
 section > nav {
@@ -32,7 +34,7 @@ ul {
   /* border: 1px dotted red; */
   float: right;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 25%;
 }
 
@@ -44,7 +46,7 @@ li {
 
 a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.11rem;
   color: #000;
@@ -59,7 +61,7 @@ nav > .button-group {
   /* border: 1px dotted green; */
   position: absolute;
   float: right;
-  top: 12%;
+  top: 9%;
   right: 10%;
 }
 
@@ -80,4 +82,11 @@ nav > .button-group {
   cursor: pointer;
   color: #8f8f8f;
   border: 2px solid #707070;
+}
+
+/* End of Nav-Bar Section */
+
+/* Start of Hero-Section */
+section > .hero-container {
+  margin: 65px 75px;
 }
