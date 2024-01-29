@@ -1,0 +1,128 @@
+/* ---------- ASSETES ------------
+background-color: #2b2922;
+nav-color: #918f87;
+button-color: #948434;
+button-border-color: #57502a;
+------------------------------- */
+
+/* ---------- FONTS ------------ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/* ---------- FONTS ------------ */
+
+/* ---------- GLOBAL-SETTING-START ------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto Mono;
+  background-color: #2b2922;
+}
+
+.container {
+  margin: 35px 75px 0px 75px;
+}
+/* ---------- GLOBAL-SETTING-END -------------- */
+
+/* ---------- NAVBAR-START ------------ */
+
+.nav-bar {
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.nav-logo {
+  display: inline-block;
+}
+
+.nav-logo > img {
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.nav-item {
+  position: absolute;
+  top: 25%;
+  right: 13%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.list-items:first-child > a {
+  font-weight: 600;
+}
+
+.list-items:not(:first-child) > a {
+  color: #918f87;
+  font-weight: 400;
+}
+
+.nav-button {
+  position: absolute;
+  top: 9%;
+  right: 0;
+}
+
+.nav-button > button {
+  padding: 10px 25px;
+  border-radius: 6px;
+  border: 1px solid #948434;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: #948434;
+}
+/* ---------- NAVBAR-END -------------- */
+
+/* ---------- HERO-SECTION-START -------------- */
+/* LEFT */
+.left-section {
+  width: 50%;
+  float: left;
+}
+
+.left-section h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+}
+/* RIGHT */
+.right-section {
+  margin-top: 50px;
+  float: right;
+  width: 50%;
+}
+
+.right-section p {
+  font-family: Roboto Mono;
+  font-weight: 200;
+  color: #fff;
+  opacity: 0.7;
+}
+/* HERO-SECTION-IMG */
+.hero-section-img {
+  margin-bottom: 100px;
+}
+
+.hero-section-img img {
+  object-fit: cover;
+  height: 530px;
+  width: 100%;
+}
+
+/* ---------- HERO-SECTION-END ---------------- */
