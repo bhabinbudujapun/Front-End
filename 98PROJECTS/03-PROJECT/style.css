@@ -29,8 +29,8 @@ body {
 /* ---------- NAVBAR-START ------------ */
 
 .nav-bar {
-  margin-bottom: 60px;
   position: relative;
+  margin-bottom: 70px;
 }
 
 .nav-logo {
@@ -59,10 +59,12 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
+  transition: color 0.1s ease-in-out;
 }
 
-.list-items:first-child > a {
+.list-items:not(:first-child) > a:hover {
   font-weight: 600;
+  color: #fff;
 }
 
 .list-items:not(:first-child) > a {
@@ -86,26 +88,36 @@ a {
   outline: none;
   background-color: transparent;
   color: #948434;
+  transition: color 0.01s ease-in, border 0.3s ease-out;
+}
+
+.nav-button > button:hover {
+  color: #fff;
+  border: 1px solid #fff;
 }
 /* ---------- NAVBAR-END -------------- */
 
 /* ---------- HERO-SECTION-START -------------- */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
 /* LEFT */
 .left-section {
-  width: 50%;
-  float: left;
+  flex: 1;
 }
 
 .left-section h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   color: #fff;
 }
 /* RIGHT */
 .right-section {
+  flex: 1;
   margin-top: 50px;
-  float: right;
-  width: 50%;
 }
 
 .right-section p {
@@ -114,14 +126,15 @@ a {
   color: #fff;
   opacity: 0.7;
 }
+
 /* HERO-SECTION-IMG */
 .hero-section-img {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .hero-section-img img {
   object-fit: cover;
-  height: 530px;
+  height: 320px;
   width: 100%;
 }
 
