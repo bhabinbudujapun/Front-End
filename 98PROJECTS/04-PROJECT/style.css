@@ -6,7 +6,6 @@ button-background-color: #5955b3
 button-font-color: #fcfcfe
 h1-font-color: #3c2f60
 span-font-color: #5955b3
-
 */
 
 /* ------ START-OF-GLOBAL-STYLE -------*/
@@ -17,12 +16,13 @@ span-font-color: #5955b3
 }
 
 body {
+  height: 100vh;
   background: #fff;
   font-family: poppins;
 }
 
 .container {
-  margin: 60px 90px;
+  margin: 40px 90px;
 }
 /* ------ END-OF-GLOBAL-STYLE -------*/
 
@@ -53,26 +53,86 @@ body {
 .navbar-container a {
   font-weight: 500;
   text-decoration: none;
-  color: #010101;
+  color: #5955b3;
+  transition: color 0.2s ease-out;
 }
 
 .navbar-container li:not(:first-child) a {
   color: #b8b8b8;
 }
 
+.navbar-container li:hover a{
+  color: #5955b3;
+}
+
 .navbar-container .button-group {
   position: absolute;
-  top: -10%;
+  top: -15%;
   right: 0;
 }
 
+.nav-button,
 .navbar-container button {
-  padding: 13px 26px;
+  padding: 12px 26px;
   border-radius: 6px;
   font-size: 0.9rem;
   border: 1px solid #5955b3;
   background-color: #5955b3;
+  font-weight: 600;
   color: #fcfcfe;
+  cursor: pointer;
+  transition: color 0.01s ease-out, background-color 0.1s ease-out;
 }
 
+.nav-button:hover,
+.navbar-container button:hover {
+  background-color: #fcfcfe;
+  color: #5955b3;
+}
 /* ------ END-OF-NAVBAR-STYLE -------*/
+
+/* ------ START-OF-BANNER-SECTION-STYLE -------*/
+.banner-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.banner-container div:first-child {
+  flex: 1;
+}
+
+.heading-text {
+  margin: 20px 0;
+  color: #3c2f60;
+  line-height: 5rem;
+  font-size: 4rem;
+}
+
+.heading-text span {
+  color: #5955b3;
+}
+
+.description {
+  width: 400px;
+  color: #b8b8b8;
+}
+
+.banner-container div:last-child {
+  flex: 1;
+}
+
+.banner-container div:last-child img {
+  width: 700px;
+  height: 550px;
+  position: absolute;
+  top: -18%;
+  right: -8%;
+}
+
+.btn {
+  margin-top: 60px;
+  padding: 15px 30px;
+}
+/* ------ END-OF-BANNER-SECTION-STYLE -------*/
