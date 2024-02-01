@@ -11,15 +11,35 @@ button-background-color: #ba0cc5
 }
 
 body {
-  font-family: poppins;
+  height: 100vh;
+  font-family: Poppins, "sans-serif";
 }
 
-.container {
-  position: relative;
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(7, 7, 7, 0.09);
+  z-index: -1;
+}
+
+body {
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /* ------ END-OF-GLOBAL-STYLE -------*/
 
 /* ------ START-OF-NAVBAR-STYLE -------*/
+section[aria-label="navbar"] {
+  position: relative;
+  background-color: yellow;
+}
+
 .navbar {
   padding: 15px 80px;
   background-color: #000;
@@ -35,13 +55,13 @@ body {
   height: 40px;
   border: 1.5px solid #616060;
   position: absolute;
-  top: 9%;
+  top: 25%;
   left: 20%;
 }
 
 .grow-list {
   position: absolute;
-  top: 15%;
+  top: 30%;
   left: 25%;
 }
 
@@ -54,33 +74,65 @@ li {
 a {
   color: #f3f3f3;
   text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ba0cc5;
 }
 
 .navbar > div:last-child {
   display: inline-block;
   position: absolute;
-  top: 10%;
+  top: 20%;
   right: 5%;
 }
 
+.button-large,
 .button-small {
   padding: 10px 38px;
   font-size: 1rem;
   font-weight: 700;
-  color: #fff;
-  background-color: #ba0cc5;
   border-radius: 4px;
+  background-color: #ba0cc5;
   border: 1px solid #ba0cc5;
+  transition: color 0.2s ease-in-out, background-color 0.1s ease-in;
+  color: #fff;
+  cursor: pointer;
   outline: none;
+}
+
+.button-large:hover,
+.button-small:hover {
+  border-color: #f3f3f3;
+  background-color: #fff;
+  color: #ba0cc5;
 }
 /* ------ END-OF-NAVBAR-STYLE -------*/
 
 /* ------ START-OF-BANNER-SECTION-STYLE -------*/
-.hero {
-  height: 611px;
-  background-image: url(./assets/bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+section[aria-label="hero"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
+
+.hero-heading {
+  letter-spacing: 0.2rem;
+  font-size: 3.5rem;
+}
+
+.hero-description {
+  font-size: 1.3rem;
+}
+
+.button-large {
+  font-size: 1.2rem;
+  padding: 13px 20px;
+  margin-top: 40px;
+}
+
 /* ------ END-OF-BANNER-SECTION-STYLE -------*/
