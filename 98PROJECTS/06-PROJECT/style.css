@@ -59,6 +59,8 @@ body {
 }
 
 #midWhole > div:first-child {
+  position: absolute;
+  z-index: 1;
   margin-top: 100px;
   width: 65%;
 }
