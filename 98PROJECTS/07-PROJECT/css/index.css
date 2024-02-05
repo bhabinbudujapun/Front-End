@@ -1,0 +1,48 @@
+/* 
+active-nav-item-font-color: #fe5e35
+nav-items-font-color: #494949
+paragraph-font-color: #e6e6e6
+yellow-dot: #fbd104
+orange-dot: #fe5e35
+black-dot: #000000
+*/
+
+/* -------- START-GLOBLE-STYLE ---------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: Fredoka One; */
+  font-family: Poppins;
+}
+/* -------- END-GLOBLE-STYLE ---------- */
+
+/* -------- START-NAVBAR-STYLE ---------- */
+nav {
+  /* border: 1px solid red; */
+  margin: 40px 0 100px 70px;
+  display: flex;
+}
+
+nav img:first-child {
+  background-color: red;
+  flex: 1;
+}
+
+.nav-item {
+  flex: 10;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+nav img:nth-child(2) {
+  background-color: yellow;
+}
+
+/* -------- END-NAVBAR-STYLE ---------- */
+
+/* -------- START-HERO-SECTION-STYLE ---------- */
+/* -------- END-HERO-SECTION-STYLE ---------- */
