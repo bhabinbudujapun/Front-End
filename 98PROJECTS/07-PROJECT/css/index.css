@@ -95,10 +95,10 @@ h1 {
 }
 
 .text {
-  max-width: 50%;
+  max-width: 45%;
   word-wrap: break-word;
   opacity: 0.5;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .action-btns {
@@ -119,25 +119,67 @@ h1 {
 
 .headphone-div img:first-child {
   position: absolute;
-  width: 140px;
-  top: 50%;
-  right: 37%;
+  width: 155px;
+  top: 60%;
+  right: 36%;
   z-index: 1;
 }
 
 .discount-content {
-  width: 100px;
   position: absolute;
-  top: 50%;
+  width: 100px;
+  top: 69%;
   right: 37%;
   z-index: 1;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.discount-content h4 {
+  font-size: 1rem;
+}
+
+.discount-content h1 {
+  font-size: 2.5rem;
 }
 
 .headphone-div img:last-child {
-  width: 520px;
   position: absolute;
-  top: -8%;
-  right: 0;
+  top: -15%;
+  right: 8%;
 }
 
+.dots {
+  position: absolute;
+  top: 120%;
+  right: 22%;
+  z-index: 1;
+}
+
+.yellow-dot,
+.tomato-dot,
+.black-dot {
+  display: inline-block;
+  width: 3px;
+  padding: 12px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.yellow-dot {
+  background-color: #fbd104;
+}
+
+.tomato-dot {
+  background-color: #fe5e35;
+}
+
+.black-dot {
+  background-color: #000000;
+}
+.right-section .action-btn {
+  position: absolute;
+  top: 135%;
+  right: 20%;
+}
 /* -------- END-HERO-SECTION-STYLE ---------- */
