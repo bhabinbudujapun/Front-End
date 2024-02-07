@@ -43,11 +43,17 @@ nav img:first-child {
   margin-left: 100px;
   font-size: 1.1rem;
   font-weight: 100;
+  cursor: pointer;
 }
 
 .active-item {
-  color: #fe5e35;
   font-weight: 700;
+  color: #fe5e35;
+}
+
+.nav-items:hover {
+  font-weight: 700;
+  color: #fe5e35;
 }
 
 nav > img:last-of-type {
@@ -60,7 +66,7 @@ nav > img:last-of-type {
 /* -------- START-HERO-SECTION-STYLE ---------- */
 .intro-section {
   position: relative;
-  margin: 0 60px;
+  margin: 0 60px 60px 60px;
 }
 
 h3 {
@@ -69,13 +75,14 @@ h3 {
 }
 
 h1 {
+  margin-top: 15px;
   font-size: 3.5rem;
   font-family: Fredoka One;
   letter-spacing: 0.2rem;
 }
 
 .sub-headlines {
-  margin: 25px 0 35px 60px;
+  margin: 35px 0 35px 60px;
 }
 
 .sub-headlines img {
@@ -88,7 +95,7 @@ h1 {
 }
 
 .sub-headlines .sub-headline {
-  margin: 10px 0;
+  margin: 18px 0;
   padding-left: 10px;
   font-size: 1.3rem;
   font-weight: 200;
@@ -115,21 +122,28 @@ h1 {
   border-radius: 20px;
   border: 1px solid #fe5e35;
   background-color: #fe5e35;
+  cursor: pointer;
 }
 
+.action-btn:hover {
+  background-color: #fff;
+  color: #fe5e35;
+}
+
+/* right-section */
 .headphone-div img:first-child {
   position: absolute;
   width: 155px;
-  top: 60%;
-  right: 36%;
+  top: 35%;
+  right: 35%;
   z-index: 1;
 }
 
 .discount-content {
   position: absolute;
   width: 100px;
-  top: 69%;
-  right: 37%;
+  top: 40%;
+  right: 36%;
   z-index: 1;
   color: #fff;
   font-size: 1rem;
@@ -144,15 +158,18 @@ h1 {
 }
 
 .headphone-div img:last-child {
+  width: 500px;
+  height: 490px;
   position: absolute;
-  top: -15%;
-  right: 8%;
+  top: -10%;
+  right: 0;
 }
 
 .dots {
+  cursor: pointer;
   position: absolute;
-  top: 120%;
-  right: 22%;
+  top: 85%;
+  right: 15%;
   z-index: 1;
 }
 
@@ -161,7 +178,7 @@ h1 {
 .black-dot {
   display: inline-block;
   width: 3px;
-  padding: 12px;
+  padding: 14px;
   border-radius: 50%;
   margin-left: 20px;
 }
@@ -176,10 +193,11 @@ h1 {
 
 .black-dot {
   background-color: #000000;
+  border: 2px solid #fe5e35;
 }
 .right-section .action-btn {
   position: absolute;
-  top: 135%;
-  right: 20%;
+  top: 100%;
+  right: 13%;
 }
 /* -------- END-HERO-SECTION-STYLE ---------- */
