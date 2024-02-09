@@ -1,0 +1,112 @@
+/* 
+nav-font-color: #202974
+h1-font-color: #3e4794
+paragraph-font-color: #43476f
+gradient-start-color: #965cf2
+gradient-end-color: #ff8adc
+*/
+
+/* -------- START-GLOBLE-STYLE ---------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #fff;
+}
+
+.main-div {
+  margin: 30px 90px;
+}
+
+/* -------- END-GLOBLE-STYLE ---------- */
+
+/* -------- START-NAVBAR-STYLE ---------- */
+nav {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  flex: 1;
+  width: 125px;
+  height: 50px;
+}
+
+.nav-items {
+  flex: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-left: 60px;
+  color: #2c357b;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #965cf2;
+}
+
+.learn-more-btn,
+.signin-btn {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #fff;
+  border-radius: 17px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(to right, #965cf2, #ff8adc);
+  font-weight: 600;
+}
+
+/* -------- END-NAVBAR-STYLE ---------- */
+
+/* -------- INTRO-SECTION-STYLE-START ---------- */
+.intro-section {
+  position: relative;
+}
+
+.left-section {
+  margin-top: 150px;
+  width: 40%;
+}
+
+h1 {
+  margin: 25px 0;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #3e4794;
+  letter-spacing: 0.4rem;
+  word-spacing: 0.3rem;
+}
+
+h4 {
+  width: 70%;
+  margin: 20px 0;
+  line-height: 1.7rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.5;
+  color: #43476f;
+}
+
+.learn-more-btn {
+  padding: 15px 40px;
+  border-radius: 35px;
+}
+
+.imgs-div {
+  position: absolute;
+  top: -50%;
+  right: -6%;
+}
+/* -------INTRO-SECTION-STYLE-END ---------- */
