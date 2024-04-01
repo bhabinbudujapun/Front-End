@@ -1,5 +1,7 @@
 /* 
-
+header-background-color: #4617fe
+header-company-list-font-color: #101010
+api-section-first-item-background-color: #5a31fc
 */
 
 /* POPPINS FONT FAMILY */
@@ -9,9 +11,44 @@
 /* -------- START-GLOBLE-STYLE ---------- */
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 /* -------- END-GLOBLE-STYLE ---------- */
 
-/* -------- START-NAVBAR-STYLE ---------- */
+/* -------- START-HEADER-STYLE ---------- */
+header {
+  background-color: #4617fe;
+  color: #ffffff;
+  padding: 30px 50px;
+}
+
+.logo {
+  width: 110px;
+}
+
+nav {
+  float: right;
+}
+
+nav > a {
+  margin-right: 24px;
+}
+
+nav > a.nav-item-active {
+  padding: 5px;
+  border-radius: 3px;
+  color: #4617fe;
+  background-color: #ffffff;
+}
+
+header div:last-child .header-image {
+  float: right;
+  position: relative;
+  top: -111px;
+  left: 50px;
+}
+
+/* -------- END-HEADER-STYLE ---------- */
 
 /* -------INTRO-SECTION-STYLE-END ---------- */
