@@ -1,7 +1,17 @@
+/* 
+
+*/
+
 /* POPPINS FONT FAMILY */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
+/* -------- START-GLOBLE-STYLE ---------- */
 * {
   font-family: "Poppins", sans-serif;
 }
+/* -------- END-GLOBLE-STYLE ---------- */
+
+/* -------- START-NAVBAR-STYLE ---------- */
+
+/* -------INTRO-SECTION-STYLE-END ---------- */
