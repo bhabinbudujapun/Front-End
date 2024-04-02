@@ -21,6 +21,7 @@ header {
   background-color: #4617fe;
   color: #ffffff;
   padding: 30px 50px;
+  position: relative;
 }
 
 .logo {
@@ -32,7 +33,9 @@ nav {
 }
 
 nav > a {
-  margin-right: 24px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 nav > a.nav-item-active {
@@ -42,13 +45,94 @@ nav > a.nav-item-active {
   background-color: #ffffff;
 }
 
+header .header-text {
+  margin: 6% 0;
+  line-height: 3em;
+}
+
+header .header-text h2 {
+  word-spacing: 0.1em;
+  font-size: 35px;
+}
+
 header div:last-child .header-image {
-  float: right;
-  position: relative;
-  top: -111px;
-  left: 50px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+
+.companies {
+  background-color: #f8f8fa;
+  padding: 24px 50px;
+}
+
+.companies a {
+  margin-right: 35px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+  text-decoration: none;
 }
 
 /* -------- END-HEADER-STYLE ---------- */
 
-/* -------INTRO-SECTION-STYLE-END ---------- */
+/* -------APIs-SECTION-STYLE-START ---------- */
+.api {
+  padding: 60px 50px;
+  background-color: #f8f8fa;
+}
+.api > h1 {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards .card-active,
+.cards .card {
+  padding: 40px 16px;
+  border-radius: 4%;
+}
+
+.cards .card-active {
+  background-color: #ffffff;
+}
+
+.cards .card-active h3 {
+  color: #4617fe;
+  font-weight: 600;
+}
+
+.cards .card-active p,
+.cards .card p {
+  font-size: 14px;
+}
+
+.fa-solid {
+  align-self: center;
+  font-size: 33px;
+  color: #4617fe;
+}
+
+/* -------APIs-SECTION-STYLE-END ---------- */
+
+/* -------BLOG-SECTION-STYLE-START ---------- */
+.blog-heading {
+  padding: 30px 50px;
+}
+
+.blog-cards {
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-content {
+  display: flex;
+  justify-self: center;
+}
+/* -------BLOG-SECTION-STYLE-END ---------- */
