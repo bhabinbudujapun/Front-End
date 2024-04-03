@@ -2,6 +2,7 @@
 header-background-color: #4617fe
 header-company-list-font-color: #101010
 api-section-first-item-background-color: #5a31fc
+QNA-section-background-color: #e9edff;
 */
 
 /* POPPINS FONT FAMILY */
@@ -122,17 +123,144 @@ header div:last-child .header-image {
 
 /* -------BLOG-SECTION-STYLE-START ---------- */
 .blog-heading {
+  background-color: #f8f8fa;
   padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.blog-heading > h3,
+.blog-card > .blog-image-1 > .blog-content > h6 {
+  color: #4617fe;
 }
 
 .blog-cards {
-  padding: 5px 50px;
+  padding: 0 50px 40px 50px;
+  display: flex;
+  background-color: #f8f8fa;
+  justify-content: space-between;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.blog-image > img {
+  background-color: #f8f8fa;
+  height: 300px;
+}
+
+.blog-image-1 {
+  width: 300px;
+}
+
+.blog-image-1 {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.blog-content,
+.blog-bottom,
+.blog-author {
+  margin-bottom: 6px;
+}
+
+/* -------BLOG-SECTION-STYLE-END ---------- */
+
+/* -------QNA-SECTION-STYLE-START ---------- */
+.faq-section {
+  padding-left: 50px;
+  background-color: #e9edff;
   display: flex;
   justify-content: space-between;
 }
 
-.blog-content {
-  display: flex;
-  justify-self: center;
+.faq-content {
+  padding-top: 40px;
 }
-/* -------BLOG-SECTION-STYLE-END ---------- */
+
+.faq-content > h2 {
+  line-height: 2.2rem;
+  font-size: 32px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.faq-content h4:nth-child(2) {
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.faq-content h4:nth-child(3) {
+  padding-bottom: 20px;
+}
+
+.faq-content button {
+  padding: 7px 20px;
+  background-color: #4617fe;
+  border: 1px solid #4617fe;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.faq-content button:hover {
+  color: #4617fe;
+  border: 1px solid #4617fe;
+  background-color: #ffffff;
+}
+/* -------QNA-SECTION-STYLE-END ---------- */
+
+/* -------Download-SECTION-STYLE-END ---------- */
+.download-section {
+  position: relative;
+  padding: 0 50px;
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.download-section .download-content span {
+  font-weight: 300;
+}
+
+.download-section .download-email input {
+  border: 1px solid #ffffff;
+  background-color: #e9edff;
+  padding: 15px 180px;
+  border-radius: 25px;
+}
+
+.download-section .download-email button {
+  background-color: #4617fe;
+  border: 1px solid #4617fe;
+  color: #ffffff;
+  padding: 7px 30px;
+  border-radius: 16px;
+  font-size: 16px;
+  position: absolute;
+  right: 55px;
+  top: 10px;
+}
+
+input::placeholder {
+  position: absolute;
+  left: 40px;
+}
+/* -------Download-SECTION-STYLE-END ---------- */
+
+/* ---------Footer-SECTION-SYTLE-START--------- */
+.footer-section {
+  padding: 50px 50px;
+  color: #ffffff;
+  background-color: #4617fe;
+  display: flex;
+  justify-content: space-between;
+}
+/* ---------Footer-SECTION-SYTLE-END--------- */
