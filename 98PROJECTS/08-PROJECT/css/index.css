@@ -45,10 +45,10 @@ nav img {
 
 .nav-item {
   margin-left: 60px;
-  color: #2c357b;
+  cursor: pointer;
   font-weight: 600;
   font-size: 0.9rem;
-  cursor: pointer;
+  color: #2c357b;
 }
 
 .nav-item:hover {
