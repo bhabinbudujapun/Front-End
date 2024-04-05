@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: url(../assets/background-image.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  padding-top: 40px;
+  margin: 0px 45px;
+}
+
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+  .main-container {
+    padding-top: 40px;
+    margin: 0px 40px;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-bar .company-logo img {
+    width: 100px;
+  }
+
+  .nav-items > i {
+    font-size: 32px;
+  }
+
+  .nav-item,
+  hr {
+    display: none;
+  }
+}
+
+/* Small Devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .nav-bar .company-logo img {
+    width: 100px;
+  }
+
+  .nav-items > i {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-items {
+    display: flex;
+  }
+  .call {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* Medium Devices (small laptops) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for medium devices */
+}
+
+/* Large Devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS rules for large devices */
+}
+
+/* Extra Large Devices (large desktops and beyond) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra large devices */
+}
