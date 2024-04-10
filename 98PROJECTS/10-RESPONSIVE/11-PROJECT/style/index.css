@@ -8,9 +8,9 @@
 }
 
 .main-nav {
-  padding-top: 40px;
-  margin: 0 65px;
+  margin: 65px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -22,20 +22,23 @@
 .nav-items {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
+  list-style-type: none;
 }
 
-li {
-  padding-left: 40px;
-  list-style-type: none;
+.nav-items li:not(:last-child) {
+  margin-right: 40px;
+}
+
+li > a:hover,
+.nav-items .active a {
+  color: #000000;
 }
 
 li > a {
   text-decoration: none;
-}
-
-.nav-items li:not(:first-child) > a{
   color: #8a8a8a;
+  font-weight: 500;
 }
 
 .nav-item > button {
