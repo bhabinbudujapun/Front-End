@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  color: #000000;
+}
+
+/* NAVIGATION */
+.main-nav {
+  margin: 45px 65px 0 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo > img {
+  width: 100px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  list-style-type: none;
+}
+
+.nav-items li:not(:last-child) {
+  margin-right: 40px;
+}
+
+li > a:hover,
+.nav-items .active a {
+  color: #000000;
+}
+
+li > a {
+  text-decoration: none;
+  color: #8a8a8a;
+  font-weight: 500;
+}
+
+.pricing-amount button,
+.hero-button,
+.nav-item > button {
+  cursor: pointer;
+  padding: 12px 20px;
+  background-color: transparent;
+  color: #2b94f1;
+  border: 1px solid #2b94f1;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.pricing-amount button:hover,
+.nav-item > button:hover {
+  background-color: #2b94f1;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
